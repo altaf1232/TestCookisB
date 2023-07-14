@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  
+  <servlet>  
+    <description></description>  
+    <display-name>TestLoginServlets</display-name>  
+    <servlet-name>TestLoginServlets</servlet-name>  
+    <servlet-class>com.cookis.TestLoginServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>TestLoginServlet</servlet-name>  
+    <url-pattern>/TestLoginServlet</url-pattern>  
+  </servlet-mapping>  
+  <servlet>  
+    <description></description>  
+    <display-name>TestProfileServlet</display-name>  
+    <servlet-name>TestProfileServlet</servlet-name>  
+    <servlet-class>com.cookis.TestProfileServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>TestProfileServlet</servlet-name>  
+    <url-pattern>/TestProfileServlet</url-pattern>  
+  </servlet-mapping>  
+  <servlet>  
+    <description></description>  
+    <display-name>TestLogoutServlet</display-name>  
+    <servlet-name>TestLogoutServlet</servlet-name>  
+    <servlet-class>com.cookis.TestLogoutServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>TestLogoutServlet</servlet-name>  
+    <url-pattern>/TestLogoutServlet</url-pattern>  
+  </servlet-mapping>  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</web-app>
